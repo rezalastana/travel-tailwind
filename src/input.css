@@ -5,3 +5,6 @@
 .btn {
     @apply py-3 px-8 bg-orange text-white rounded-md shadow-xl hover:bg-white hover:text-orange hover:shadow-none border hover:border-orange transition-all duration-300;
 }
+.btn-black {
+    @apply py-3 px-8 bg-hitam text-white rounded-md shadow-xl hover:bg-white hover:text-hitam hover:shadow-none border hover:border-hitam transition-all duration-300;
+}
