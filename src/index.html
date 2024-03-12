@@ -82,6 +82,13 @@
                     TravelFun</h1>
                 <!-- pembagian kanan kiri -->
                 <div class="w-full md:flex">
+                    <!-- kanan mobile -->
+                    <div class="w-full md:hidden mb-10">
+                        <div class="w-full h-[200px] overflow-hidden rounded-lg relative">
+                            <img src="../public/image/card1.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+
                     <!-- kiri -->
                     <div class="w-full md:w-1/2 mb-12 md:mb-0 ">
                         <div class="flex gap-2 items-center mb-4">
@@ -113,6 +120,53 @@
                         </div>
                     </div>
                     <!-- kanan -->
+                    <div class="w-full md:w-1/2 relative hidden md:block">
+                        <!-- image 1 -->
+                        <div
+                            class="w-[230px] h-[300px] rounded-lg border-[5px] border-white overflow-hidden absolute -top-5 left-20">
+                            <img src="../public/image/hero1.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <!-- image 2 -->
+                        <div
+                            class="w-[200px] h-[230px] rounded-lg border-[5px] border-white overflow-hidden absolute left-32 -bottom-10 z-20">
+                            <img src="../public/image/hero2.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <!-- image 3 -->
+                        <div
+                            class="w-[230px] h-[300px] rounded-lg border-[5px] border-white overflow-hidden absolute bottom-5 right-0 z-10">
+                            <img src="../public/image/hero3.png" alt="" class="w-full h-full object-cover">
+                        </div>
+
+                        <!-- card 1 -->
+                        <div
+                            class="w-[165px] h-[60px] px-[5px] bg-white rounded-md shadow-lg flex items-center gap-2 absolute right-9 z-30 ">
+                            <div class="w-[70px] h-[50px] overflow-hidden rounded-md">
+                                <img src="../public/image/card1.png" alt="" class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col">
+                                <h4 class="font-semibold capitalize text-sm">Travel Plan</h4>
+                                <p class="text-[10px] capitalize">plan first before traveling</p>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div
+                            class="w-[160px] h-[105px] bg-white py-2 px-3 rounded-md shadow-lg flex flex-col items-start justify-center absolute z-30 -bottom-5 left-10 capitalize">
+                            <div class=" flex gap-4 mb-2 items-center">
+                                <i class="fa-solid fa-chart-simple text-orange"></i>
+                                <p class="font-normal text-xs">Best Place</p>
+                            </div>
+                            <div class=" flex gap-4 mb-2 items-center">
+                                <i class="fa-solid fa-camera text-orange"></i>
+                                <p class="font-normal text-xs">Best Photo</p>
+                            </div>
+                            <div class=" flex gap-4 mb-2 items-center">
+                                <i class="fa-solid fa-location-crosshairs text-orange"></i>
+                                <p class="font-normal text-xs">Best Location</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </header>
